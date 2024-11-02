@@ -12,7 +12,7 @@ Welcome to the Tic-Tac-Toe Game project! This app lets you play a classic Tic-Ta
 🖼️ Screenshot
 
 🚀 Demo
-Try the live version of the game here: ![Tic-Tac-Toe Game on CodeSandbox]
+Try the live version of the game here: ![Tic-Tac-Toe Game on CodeSandbox](https://deepakpatil26.github.io/react_tic-tac-toe)
 
 📦 Installation
 If you'd like to run this project locally:
