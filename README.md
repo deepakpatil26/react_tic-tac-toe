@@ -9,12 +9,12 @@ Welcome to the Tic-Tac-Toe Game project! This app lets you play a classic Tic-Ta
 - Smart UI: Interactive buttons and smooth animations enhance the experience.
 - Responsive Design: Optimized for desktop and mobile screens.
 
+🚀 Demo
+Try the live version of the game here: [Tic-Tac-Toe Game](https://deepakpatil26.github.io/react_tic-tac-toe)
+
 🖼️ Screenshot:
 
 ![Tic-Tac-Toe Screenshot](src/assets/react_tic-tac-toe.png)
-
-🚀 Demo
-Try the live version of the game here: [Tic-Tac-Toe Game](https://deepakpatil26.github.io/react_tic-tac-toe)
 
 📦 Installation
 If you'd like to run this project locally:
