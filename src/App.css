@@ -1,0 +1,151 @@
+/* Center body content with extra space around the game */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  margin: 0;
+  background: linear-gradient(135deg, #4c9aff, #a5d8ff);
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+}
+
+/* Main app container with reduced padding */
+.App {
+  text-align: center;
+  max-width: 350px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading style */
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0 0 12px;
+}
+
+/* Status message with subtle shadow and highlight */
+.status {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+  background-color: #e0e7ff;
+  padding: 5px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+/* Board with reduced square size */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 10px;
+  margin: 15px;
+}
+
+/* Square style */
+.square {
+  width: 75px;
+  height: 75px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  background: #f2f2f2;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Square hover and active effects */
+.square:hover {
+  background: #e0e7ff;
+}
+
+.square:active {
+  transform: scale(0.95);
+  background: #d1d9ff;
+}
+
+/* Button styles */
+button {
+  padding: 8px 16px;
+  margin: 8px 4px;
+  border: none;
+  border-radius: 4px;
+  background: #4c9aff;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #3578e5;
+}
+
+button:active {
+  background: #2c5bbf;
+}
+
+/* Responsive Design - Adjustments for smaller screens */
+@media (max-width: 480px) {
+  .App {
+    max-width: 90%; /* Adjust width for mobile */
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .board {
+    grid-template-columns: repeat(3, 60px); /* Smaller squares on mobile */
+    gap: 5px;
+  }
+
+  .square {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .status {
+    font-size: 16px;
+  }
+
+  button {
+    padding: 6px 12px;
+    font-size: 14px;
+    margin: 5px 2px;
+  }
+}
+
+/* Additional adjustments for tablets and mid-size screens */
+@media (min-width: 481px) and (max-width: 768px) {
+  .App {
+    max-width: 300px;
+  }
+
+  .board {
+    grid-template-columns: repeat(3, 70px);
+    gap: 6px;
+  }
+
+  .square {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+  }
+
+  .status {
+    font-size: 17px;
+  }
+}
