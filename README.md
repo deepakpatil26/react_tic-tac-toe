@@ -11,7 +11,7 @@ Welcome to the Tic-Tac-Toe Game project! This app lets you play a classic Tic-Ta
 
 🖼️ Screenshot:
 
-- ![Tic-Tac-Toe Screenshot](src/assets/react_tic-tac-toe.png)
+![Tic-Tac-Toe Screenshot](src/assets/react_tic-tac-toe.png)
 
 🚀 Demo
 Try the live version of the game here: [Tic-Tac-Toe Game](https://deepakpatil26.github.io/react_tic-tac-toe)
@@ -30,7 +30,7 @@ git clone https://github.com/deepakpatil26/react_tic-tac-toe.git
 
 ```bash
 
-cd tic-tac-toe
+cd react_tic-tac-toe
 ```
 
 3. Install dependencies:
