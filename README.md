@@ -1,5 +1,7 @@
 **Tic-Tac-Toe Game** 🎮
 
+![Tic-Tac-Toe Logo](src/assets/tic-tac-toe-logo.png)
+
 Welcome to the Tic-Tac-Toe Game project! This app lets you play a classic Tic-Tac-Toe game either against another player or challenge an AI. Built with React, this project showcases core React concepts like state, props, and conditional rendering while keeping the experience fun and interactive.
 
 🎯 Features:
