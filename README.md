@@ -1,8 +1,8 @@
 **Tic-Tac-Toe Game** 🎮
 
-<img src="src/assets/tic-tac-toe-logo.png" width="300" alt="Tic-Tac-Toe Logo">
+<img src="src/assets/tic-tac-toe-logo.jpeg" width="300" alt="Tic-Tac-Toe Logo">
 
-Welcome to the Tic-Tac-Toe Game project! This app lets you play a classic Tic-Tac-Toe game either against another player or challenge an AI. Built with React, this project showcases core React concepts like state, props, and conditional rendering while keeping the experience fun and interactive.
+Welcome to the Tic-Tac-Toe Game project! This app lets you play a classic Tic-Tac-Toe game against another player or challenge an AI. Built with React, this project showcases core React concepts like state, props, and conditional rendering while keeping the experience fun and interactive.
 
 🎯 Features:
 
@@ -55,20 +55,20 @@ npm start
 
 🔍 How to Play:
 
-- Choose the game mode by selecting either Human vs Human or Human vs AI.
+- Choose the game mode by selecting Human vs Human or Human vs AI.
 - In Human vs Human, both players take turns by clicking on squares.
 - In Human vs AI, make your move and watch the AI respond immediately.
 - Click Restart Game to play a new game.
 
 🛠️ Technologies Used
 
-- React: For building the interactive user interface.
+- React: This is used to build the interactive user interface.
 - CSS: For styling and animations.
 
 🧠 How It Works
 
 - The game maintains the board’s state in an array of nine squares.
-- Game logic checks for a winner after each move, and the game resets once a winner is declared.
+- Game logic checks for a winner after each move and the game resets once a winner is declared.
 - In Human vs AI mode, a basic AI algorithm picks the first available move after the player moves.
 
 📜 License
