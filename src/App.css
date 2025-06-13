@@ -6,7 +6,7 @@ body {
   min-height: 90vh;
   margin: 0;
   background: linear-gradient(135deg, #4c9aff, #a5d8ff);
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   padding: 20px;
 }
 
@@ -148,4 +148,58 @@ button:active {
   .status {
     font-size: 17px;
   }
+}
+
+/* Dark Mode Root */
+body.dark {
+  background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+  color: #e0e0e0;
+}
+
+/* Dark Mode Container */
+body.dark .App {
+  background: #2c2c2c;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Headings */
+body.dark h1 {
+  color: #f0f0f0;
+}
+
+/* Status */
+body.dark .status {
+  background-color: #3a3f58;
+  color: #f0f0f0;
+  text-shadow: none;
+}
+
+/* Squares */
+body.dark .square {
+  background: #3a3a3a;
+  color: #f0f0f0;
+  border: 2px solid #555;
+}
+
+body.dark .square:hover {
+  background: #50577b;
+}
+
+body.dark .square:active {
+  background: #40476d;
+}
+
+/* Buttons */
+body.dark button {
+  background: #3b7dd8;
+  color: white;
+  box-shadow: 0 0 4px rgba(0, 120, 255, 0.4);
+}
+
+body.dark button:hover {
+  background: #2a66c2;
+}
+
+body.dark button:active {
+  background: #1f4cab;
 }
