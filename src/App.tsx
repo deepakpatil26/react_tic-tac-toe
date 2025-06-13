@@ -10,10 +10,11 @@ function App() {
 
   useEffect(() => {
     document.body.classList.toggle('dark', darkMode);
+    localStorage.setItem('darkMode', String(darkMode));
   }, [darkMode]);
 
   return (
-    <div className={`App${darkMode ? ' dark-mode' : ''}`}>
+    <div className="App">
       <button
         onClick={() => setDarkMode((prev) => !prev)}
         style={{ margin: '1rem' }}>
